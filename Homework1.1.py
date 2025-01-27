@@ -2,6 +2,7 @@ def calculate_net_salary():
     try:
         # Firstly player should input gross salary and number of children
         gross = float(input("Enter the gross salary: "))
+        gross =  int(gross)
         children = int(input("Enter the number of children: "))
 
         # Then given the constraints in the homework machine will determine the base tax rate
